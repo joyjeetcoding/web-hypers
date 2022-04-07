@@ -79,6 +79,8 @@ a {
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    margin: 0px;
+	
 
 }
 .explore-content{
