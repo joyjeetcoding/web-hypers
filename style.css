@@ -73,7 +73,7 @@ a {
 .explore{
     width: 100%;
     height: 80vh;
-    background-image: url('expl.jpg');
+    background-image: url('./expl.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
