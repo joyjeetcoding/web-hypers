@@ -94,11 +94,10 @@ a {
 }
 .explore-content h1{
     font-size: 7vmin;
-    margin: 50px;
+    margin: 15px;
 }
 .explore-content .line{
     margin-bottom: 50px;
-    margin-top: 10px;
 }
 .explore-content h2{
     color:rgb(217, 217, 217);
