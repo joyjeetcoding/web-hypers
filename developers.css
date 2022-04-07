@@ -1,0 +1,140 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.navbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 20px;
+	color: whitesmoke;
+}
+
+.nav-links{
+	display: flex;
+	align-items: center;
+}
+
+.nav-links li{
+	margin: 0 30px;
+
+}
+
+.ctn{
+	padding: 8px 15px;
+	border-radius: 30px;
+	color: whitesmoke;
+}
+.active{
+	color: #fc036b;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a{
+	
+	text-decoration: none;
+	color: #5ffcff;
+	font-family: 'Aclonica', sans-serif;
+
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #fc036b;
+	transform: 0.3s ease;
+}
+
+.navbar li a:hover{
+	text-decoration: underline;
+	color: #fc036b;
+	transform: 0.3s ease;
+}
+.navbar li{
+	font-size: 18px;
+}
+.logo{
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-family: 'Rye', cursive;
+	cursor: pointer;
+	color: #6bff00;
+}
+
+
+
+/* Mobile Device */
+
+@media only screen and (max-width:850px){
+	.menu-icon{
+		display: block;
+		color: #000;
+	}
+	.navbar{
+		padding: 0;
+	}
+	.logo{
+		position: absolute;
+		top: 30px;
+		left: 30px;
+	}
+	.nav-links{
+		flex-direction: column;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		background: #000;
+		margin-top: -900px;
+		transition: all 0.5s ease;
+	}
+	.mobile-menu{
+		margin-top: 0px;
+		border-bottom-right-radius: 30%;
+	}
+	.nav-links li{
+		margin: 30px auto;
+
+	}
+}
+
+.menu-icon{
+	position: absolute;
+	top: 30px;
+	width: 30px;
+	right: 23px;
+	cursor: pointer;
+	color: BLACK;
+}
+body{
+	/* background: url(10562550_492300097573902_1739560138490705008_o.jpg); */
+	background: url(AECcopy.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+}
+
+#dev1{
+	background-color: #f6bf49;
+	border: 2px solid red;
+	border-radius: 25px;
+	padding: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 292px;
+    position: absolute;
+    left: 41%;
+    top: 69px;
+    font-size: 41px;
+	font-family: 'Rye', cursive;
+
+}
