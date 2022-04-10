@@ -3,12 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <meta name="viewport" content="width=device-width, initial-scale= 0.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
     <title>Destinations</title>
     <style>
+	    
         body {
             background-image: url(boudhayan-bardhan-wmBy2CZjg9M-unsplash.jpg);
             background-repeat: no-repeat;
@@ -18,99 +19,83 @@
             width: 100%;
             height: 100%;
         }
-
         .heading {
-            width: 300px;
-            background-color: rgb(255, 255, 255);
-            padding: 40px;
-            margin: 20px;
+            border:0;
+            background-color: whitesmoke;
+            display: block;
+            margin: 40px auto;
             text-align: center;
+            padding: 30px 50px;
+            outline: none;
+            color: white;
+            border-radius: 39px;
+            transition: 0.25s;
+            cursor: pointer;
+            width:250px;
+            font-size:30px;
             font-family: monospace;
-            font-size: 40px;
-            font-display: flex;
-            position: absolute;
-            left: 36%;
-            border-radius: 35px;
-            box-shadow: 2px 25px 10px 10px rgba(255, 255, 255, 0.596);
-
+            box-shadow: 5px 5px 5px 5px rgb(224, 224, 224);
         }
-
         .heading:hover {
-            color: red;
-            background-color: rgb(0, 0, 0);
-
+            width: 300px;
+            transition: 0.5s;
+            background-color: rgb(23, 255, 2);
         }
-
         .heading a {
             font-family: 'Aclonica', sans-serif;
         }
-
         .gal {
-            width: 225px;
+            border:0;
             background-color: rgb(255, 255, 255);
-            padding: 25px;
-            margin: 15px;
+            display: block;
+            margin: 30px auto;
             text-align: center;
-            font-family: sans-serif;
+            border: none;
+            padding: 25px 25px;
+            outline: none;
+            color: rgb(255, 0, 132);
+            border-radius: 38px;
+            transition: 0.25s;
+            width:235px;
             font-size: 30px;
-            font-display: flex;
-            position: absolute;
-            left: 40%;
-            top: 30%;
-            border-radius: 35px;
-            box-shadow: 2px 20px 8px 8px rgba(255, 255, 255, 0.596);
-            font-family: 'Aclonica', sans-serif;
-
+            font-family: sans-serif;
+            box-shadow: 5px 5px 5px 5px rgb(224, 224, 224);
+            font-weight:bold;
         }
-
         .gal:hover {
             color: red;
-            background-color: rgb(215, 212, 44);
-            transition: 0.5s;
-
+            background-color: rgb(251, 255, 0);
+            transition: 0.5s;            
         }
-
-        div.background {
-            background: url('cover-img.jpg') repeat;
-            /*border: 2px solid black;*/
-        }
-
-        div.exp {
-            width: 250px;
+	div.exp {
             background-color: rgb(255, 255, 255);
-            padding: 30px;
-            margin: 15px;
+            margin: 30px auto;
             text-align: center;
-            font-family: sans-serif;
+            padding: 25px 25px;
+            outline: none;
+            color: rgb(255, 0, 132);
+            border-radius: 38px;
+            transition: 0.25s;
+            width:235px;
             font-size: 30px;
-            font-display: flex;
-            position: absolute;
-            left: 35%;
-            top: 104%;
-            border-radius: 35px;
-            /*box-shadow: 2px 20px 5px 5px rgba(255, 255, 255, 0.596);*/
-            /*border: 1px solid black;*/
-            opacity: 0.7;
+            font-family: sans-serif;
+            box-shadow: 5px 5px 5px 5px rgb(224, 224, 224);
+            font-weight:bold;
+            margin-top: 500px;
         }
-
         div.exp p {
-            margin: 5%;
+            margin: 4%;
             font-weight: bold;
-            color: #000000;
+            color: #0066ff;
+            font-size: 45px;
         }
-
         .exp:hover {
             color: red;
             background-color: rgb(215, 212, 44);
-            opacity: 1.0;
-
+            opacity: 10.0;
         }
-
         .maindiv {
-            background-image: url('cover-img.jpg');
-            /* Full height */
-            height: 100%;
-            /* Center and scale the image nicely */
+            background:transparent;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -118,15 +103,62 @@
             height: 405px;
             position: absolute;
             left: 50%;
-            top: 75%;
+            margin-top: 250px;
             transform: translate(-50%, -50%);
             background-size: 100% 100%;
             border-radius: 25px;
-            box-shadow: 3px 5px 10px 10px rgba(90, 200, 169, 0.596);
-            animation: slider 20s infinite linear;
+            box-shadow: 0px 0px 15px 15px rgba(1, 254, 182, 0.596);
+            animation: slider 15s infinite linear;
         }
+        .box {
+            width: 900px;
+            margin: 10px 10px;
+            box-shadow: 0 0 20px 5px rgb(0, 0, 0);
+            transform: 1s;
+            border-radius: 25px;
+        }
+        .box img {
+            display: absolute;
+            width: 100%;
+            border-radius: 25px;
+        }
+        .box:hover {
+            transform: scale(1.2);
+            z-index: 3;
+        }
+        .logo {
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-family: 'Rye', cursive;
+            cursor: pointer;
+            color: #6bff00;
+        }
+        .logo a {
+            letter-spacing: 4px;
+            font-weight: bold;
+            font-family: 'Rye', cursive;
+            cursor: pointer;
+            text-decoration: none;
+            color: #6bff00;
+        }
+        .exp p {
+            font-family: 'Aclonica', sans-serif;
 
-        @keyframes slider {
+        }
+        footer{
+            background: #000000;
+            color: white;
+            position:fixed;
+            width: 100%;
+            height: 25px;
+            bottom: 0;
+            padding-top: 5px;;
+            font-family: 'Aclonica', sans-serif;            
+        }
+        body, html{
+            overflow-x: hidden;
+        }	    
+	 @keyframes slider {
             0% {
                 background-image: url('baranti1.jpg');
             }
@@ -147,71 +179,20 @@
                 background-image: url('garh1.jpg');
             }
         }
-	 @media(max-width: 900px) {
+	@media(max-width: 900px) {
             .container{
                 margin-left: -11vmin;
             }
-        }
-        .box {
-            width: 900px;
-            margin: 0 10px;
-            box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
-            transform: 1s;
-            border-radius: 25px;
-
-        }
-
-        .box img {
-            display: absolute;
-            width: 100%;
-            border-radius: 25px;
-        }
-
-        .box:hover {
-            transform: scale(1.3);
-            z-index: 2;
-        }
-
-        .logo {
-            letter-spacing: 2px;
-            font-weight: bold;
-            font-family: 'Rye', cursive;
-            cursor: pointer;
-            color: #6bff00;
-        }
-
-        .logo a {
-            letter-spacing: 4px;
-            font-weight: bold;
-            font-family: 'Rye', cursive;
-            cursor: pointer;
-            text-decoration: none;
-            color: #6bff00;
-        }
-
-        .exp p {
-            font-family: 'Aclonica', sans-serif;
-
-        }
-        footer{
-            background: #000000;
-            color: white;
-            position:fixed;
-            width: 100%;
-            height: 25px;
-            bottom: 0;
-            padding-top: 5px;;
-            font-family: 'Aclonica', sans-serif;
         }
     </style>
 </head>
 
 <body>
-    <nav class="navbar">
+     <nav class="navbar">
         <div class="menu-icon">
             <i class="fas fa-bars"></i>
         </div>
-        <h1 class="logo"><a href="index.html"> THE WEB HYPERS</a></h1>
+            <h1 class="logo"><a href="index.html"> THE WEB HYPERS</a></h1>
 
 
     </nav>
@@ -223,7 +204,7 @@
                 <p>Explore</p>
             </div>
         </div>
-        <div class="container" style="margin-top:565px; margin-left:6vw;">
+        <div class="container" style="margin-top:55pxpx; margin-left:6vw;">
             <br>
             <div class="box">
                 <a href="https://goo.gl/maps/U8gooVo75xoPfpzs6" target="blank"><img src="barantidet.jpg"></a>
