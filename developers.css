@@ -132,10 +132,15 @@ body{
 	justify-content: center;
 	align-items: center;
 	width: 292px;
-    position: absolute;
-    left: 41%;
-    top: 69px;
-    font-size: 41px;
+        position: absolute;
+        left: 41%;
+        top: 69px;
+        font-size: 41px;
 	font-family: 'Rye', cursive;
 
+}
+th, td{
+	border: 3px solid  #f6bf49;
+	border-collapse: collapse;
+	border-radius: 10px;
 }
